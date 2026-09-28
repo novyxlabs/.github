@@ -16,7 +16,7 @@
 ### What makes Novyx different
 
 - **Rollback** — undo any memory to any previous version
-- **Audit trails** — SHA-256 hash-chained, tamper-proof, exportable
+- **Audit trails** — SHA-256 hash-chained and tamper-evident (`previous_hash` / `entry_hash`), exportable via `GET /v1/audit/export`
 - **Replay** — counterfactual analysis and drift detection
 - **Knowledge graph** — entity relationships stored as triples
 - **Sentinel** — circuit breaker with RSA-4096 trace signing
